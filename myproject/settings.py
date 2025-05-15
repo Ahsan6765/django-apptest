@@ -148,5 +148,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/login/'
 
+# Add Your Azure Domain to CSRF_TRUSTED_ORIGINS In settings.py
+CSRF_TRUSTED_ORIGINS = [
+    'https://djangoapp21.azurewebsites.net',
+]
+
 
 
