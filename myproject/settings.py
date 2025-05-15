@@ -92,7 +92,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'RegisterationDB',
+        'NAME': 'RegistrationDB',
         'USER': 'sqladmin',
         'PASSWORD': 'Asdfgh123!',
         'HOST': 'registration-sqlserver.database.windows.net',
