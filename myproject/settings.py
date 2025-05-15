@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-r#%q-0*7+1nr#_170ys#%mx3b#d!d@6+49ux2v4#5m=c=d&-z@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'djangoapptest.azurewebsites.net',  # <-- Your Azure app domain
+    '127.0.0.1',  # Optional: for local development
+    'localhost',  # Optional: for local development
+]
+
 
 
 # Application definition
